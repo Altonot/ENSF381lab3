@@ -17,4 +17,46 @@
     height: 100px;
     display: block;
     margin: 0 auto 10px;
+} 
+
+.navbar {
+    display:flex;
+    flex-direction:row;
+}
+
+.navbaritem {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.navbar:hover {
+    background-color:#333;
+}
+
+.navbardropdown {
+    text-align: center;
+    margin: 20px 20px;
+    position:relative;
+}
+
+.navbardropdown:hover {
+    background-color: #bdbbbb;
+}
+
+.dropdowncontent {
+    display:none;
+    position:absolute;
+}
+
+.dropdownbutton {
+    background-color: white;
+    color:black;
+    border:none;
+}
+
+
+
+a {
+    text-decoration:none;
+    color:black;
 }
